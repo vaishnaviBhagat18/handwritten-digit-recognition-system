@@ -10,5 +10,7 @@ Steps to run:
         venv\Scripts\activate
 3. Install Dependencies
     pip install -r requirements.txt
+    to include new installed Dependencies in requirements.txt:
+        pip freeze > requirements.txt
 4. Run Project
     python main.py
